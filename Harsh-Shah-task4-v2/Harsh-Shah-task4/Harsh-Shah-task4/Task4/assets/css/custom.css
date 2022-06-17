@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.sec1 {
+  background-color: #333647;
+  padding: 10px 0 100px 0;
+}
+
+.sec1 .sec-1 .name{
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+}
+
+.sec1 .sec-1 .skill{
+  font-size: 22px;
+}
+
+.girl-img-circle {
+  background-color: #282A39;
+  border-radius: 50%;
+  outline: #FFFFFF dashed;
+  outline-offset: 15px;
+}
+
+.hire-btn:hover{
+    color: #FFFFFF;
+    background-color:#F87C58;
+}
+
+.down-btn, .work-btn, .hire-btn, .about-btn, .view-btn, .submit-btn
+{
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.down-btn:hover, .work-btn:hover, .hire-btn:hover , .about-btn:hover, .view-btn:hover, .submit-btn:hover{
+  color: #FFFFFF;
+	background-color:#F87C58 ;
+}
+
+.heading{
+  color: #ffffff;
+  background-color: #333647; 
+  border: 0;
+  font-size: 18px;
+  padding-top: 10px;
+  /* color: #FFFFFF !important; */
+}
+
+.sec2, .sec4, .sec6{
+  background-color: #282A39;
+  padding: 100px;
+}
+
+.sec8{
+  background-color: #11121C;
+  padding: 100px;
+}
+
+
+.sec3, .sec5, .sec7{
+  background-color: #333647;
+  padding: 100px;
+}
+
+.squarebox-img  {
+  filter: grayscale(90%);
+  position: relative;
+}
+
+.smallbox{
+  background-color: #11121C;
+  border-radius: 10px;
+  position: absolute;
+  padding: 30px 60px 30px 60px;
+  bottom: -40px;
+  left: -40px;
+}
+
+.cheerfull-girl{
+  border: white 4px dashed;
+}
+
+.box4{
+  background-color: #11121C;
+  border-radius: 10px;
+  border: #707070 dashed 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ 
+.img-row-1 ,.img-row-2 {
+  filter: grayscale(93%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6{
+  text-align: center;
+}
+
+.sec7-text{
+  background-color: #11121C;
+  padding: 10px 0px 10px 10px;
+  
+}
+
+.sec1 .box-color-nv1, .sec1 .box-color-nv2{
+  background-color: #F87C58;
+  border-color: #F87C58;
+}
+
+.form-box .form-control{
+  background-color: #333647;
+  border: 1px solid #333333;
+
+} 
+
+.footer-text {
+  text-align: center;
+  font-size: 19px;
+
+}
+

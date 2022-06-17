@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  }
+  .navbar li a.nav-link {
+  color: #FFFFFF;}
+  .sec1 {
+  background-color: #333647;
+  padding: 10px 0 100px 0;
+  }
+  .sec1 .sec-1 .name{
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  }
+  .sec1 .sec-1 .skill{
+  font-size: 22px;
+  font: normal normal 300 22px/33px Poppins;
+  }
+  .girl-img-circle {
+  background-color: #282A39;
+  border-radius: 50%;
+  outline: #FFFFFF dashed;
+  outline-offset: 15px;
+  }
+  .hire-btn:hover{
+  color: #FFFFFF;
+  background-color:#F87C58;
+  }
+  a:hover {
+  color: #F87C58 !important;
+  }
+  .down-btn, .work-btn, .hire-btn, .about-btn, .view-btn, .submit-btn
+  {
+  color: #ffffff;
+  background-color: transparent;
+  }
+  .down-btn:hover, .work-btn:hover, .hire-btn:hover , .about-btn:hover, .view-btn:hover, .submit-btn:hover{
+  color: #FFFFFF;
+  background-color:#F87C58 ;
+  }
+  .heading{ 
+  color: #ffffff;
+  background-color: #333647; 
+  border: 0;
+  font-size: 18px;
+  padding-top: 10px;
+  /* color: #FFFFFF !important; */
+  }
+  .sec2, .sec4, .sec6{
+  background-color: #282A39;
+  padding: 100px;
+  }
+  .sec8{
+  background-color: #11121C;
+  padding: 100px;
+  }
+  .sec3, .sec5, .sec7{
+  background-color: #333647;
+  padding: 100px;
+  }
+  .squarebox-img  {
+  filter: grayscale(90%);
+  position: relative;
+  }
+  .smallbox{
+  background-color: #11121C;
+  border-radius: 10px;
+  position: absolute;
+  padding: 30px 60px 30px 60px;
+  bottom: -40px;
+  left: -40px;
+  font: normal normal bold 30px/39px Poppins;
+  }
+  .h2-text p{
+  font: normal normal bold 30px/39px Poppins;
+  }
+  .cheerfull-girl{
+  border: white 4px dashed;
+  }
+  /* Start of Services section  */
+  .service-btn{
+  width: 320px;
+  margin-left:0px;
+  padding: 0;
+  border:none;
+  height: 80px;
+  color: white;
+  background-color: #11121C;
+  }
+  .icon-btn{
+  border-radius: 100px;
+  /* background-color: #333647; */
+  padding-right: 15px;
+  }
+  .row2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  .service-btn:hover{
+  background-color: #F87C58;
+  color: white;
+  }
+  /* End of Services section  */
+  .box4{
+  background-color: #11121C;
+  border-radius: 10px;
+  border: #707070 dashed 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  .img-row-1 ,.img-row-2 {
+  filter: grayscale(93%);
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  #s1, #s2, #s3, #s4, #s5, #s6{
+  text-align: center;
+  }
+  .sec7-text{
+  background-color: #11121C;
+  padding: 10px 0px 10px 10px;
+  }
+  .sec1 .box-color-nv1, .sec1 .box-color-nv2{
+  background-color: #F87C58;
+  border-color: #F87C58;
+  }
+  .form-box .form-control{
+  background-color: #333647;
+  border: 1px solid #333333;
+  } 
+  .footer-text {
+  text-align: center;
+  font-size: 19px;
+  }
+
+
+  /* On screens that are 1200px or less */
+  @media only screen and (max-width: 1200px)
+  {
+  .girl-img-circle {
+  width: 358px; /* width of container */
+  height: 357px; /* height of container */
+  }
+  .smallbox{
+  padding: 0px 14px 30px 28px;
+  }
+  .sec2 .small-box-details{
+  padding-right: 26px;
+  padding-top: 0px;
+  }
+  .sec2  .small-box-details{
+  padding-right: 121px;
+  }
+  /* 
+  .container{
+  width: 1057px
+  } */
+  .sec4 .sec4-text{
+  padding-left: 50px;
+  }
+  }
+
+
+  /* On screens that are 990px or less */
+  @media screen and (max-width: 991px) {
+  .girl-img-circle {
+  width: 358px; /* width of container */
+  height: 357px; /* height of container */
+  }
+  /* .girl-img-circle img {
+  margin: -10px 0px 0px -180px;
+  } */
+  .smallbox{
+  padding: 0px 14px 30px 28px;
+  }
+  .sec2 .small-box-details{
+  padding-right: 26px;
+  padding-top: 0px;
+  }
+  .sec3 .service{
+  text-align: center;
+  }
+  .sec5 .img-row-1, .sec5 .img-row-2{
+  width: 80%; /* width of container */
+  height: 80%; /* height of container */
+  padding-left: 93px; 
+  }
+  .sec5 .img1,.sec5 .img2,.sec5 .img3{
+  padding-bottom: 15px;
+  }
+  .sec5 .img4, .sec5 .img5, .sec5 .img6{
+  padding-bottom: 15px;
+  }
+  .sec7 .post1, .sec7 .post2, .sec7 .post3{
+  padding-bottom: 20px;
+  }
+  .form-box .message-area{
+  width: 83%;
+  }
+  .sec3 .row1{
+  display: table;
+  border-collapse : collapse;
+  width: 100%;
+  }
+
+  .sec3 .row2{
+    display: table;
+    border-collapse : collapse;
+    width: 100%;
+    }
+
+  .service-btn{
+    display: table-cell;
+    width: 100%;
+    display: table-row;
+    margin: auto;
+  }
+  .service-btn{
+    margin-bottom: 12px;
+  }
+  
+  }
+
+
+
+  /* On screens that are 767px or less */
+  @media screen and (max-width: 767px) {
+  .sec2 .small-box-details{
+  padding-top: 40px;
+  }
+  .sec2 .h2-text{
+  margin-bottom: -17px;
+  }
+  /* .h2-text .p1, .h2-text .p2{
+  padding: 12px;
+  } */
+  .cheerfull-girl{
+  width: 100%;
+  height: 361px;
+  } 
+  .sec5 .img-row-1, .sec5 .img-row-2{
+  width: 90%; /* width of container */
+  height: 80%; /* height of container */
+  padding-left: 93px; 
+  }
+  .form-box .message-area{
+  width: 100%;
+  }
+  .service-btn{
+    margin-bottom: 12px;
+  }
+
+  }
+
+
+/* 
+  /* On screens that are 575px or less */
+  @media screen and (max-width: 575px) {
+  
+  .sec5 .img-row-1{
+    width: 100%;
+    height: 100%;
+
+  }
+  .sec5 .img-row-2{
+    width: 100%;
+    height: 100%;
+
+  }
+  .service-btn{
+    margin-bottom: 12px;
+  }
+
+  }
