@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .slide {
+    display: none;
+  }
+  
+  
+
+  #load,#load4,#load7{
+    color: #5454d6;
+    font-size: 20px;
+    padding: 10px 5px 5px 10px;
+}
+
+#btn{
+    margin: 10px 5px 5px 10px;
+    padding: 10px;
+    font-size: medium;
+}
+
+#load2,#load6{
+    font-size: 20px;
+    margin: 10px 5px 5px 10px;
+    color: rgb(13, 236, 99);
+}
+
+#load3,#load5{
+    font-size: 20px;
+    margin: 10px 5px 5px 10px;
+    color: rgb(255, 49, 176);
+}
+
+

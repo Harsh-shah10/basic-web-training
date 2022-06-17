@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image slider</title>
+
+
+  <!-- INCLUDING JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+
+  <link rel="stylesheet" href="assets/custom.css">
+
+</head>
+
+<body>
+
+  <!-- Image slider js -->
+
+  <h2 style="color: aqua;text-align: center;">Image slider</h2>
+
+  <div class="slideshow-container">
+
+    <div class="slide">
+      <img src="assets/images/img1.jpg" style="width:100%;">
+      <div style="text-align: center;color: rgb(42, 190, 141);">Image 1</div>
+    </div>
+
+    <div class="slide">
+      <img src="assets/images/img2.jpg" style="width:100%;">
+      <div style="text-align: center;color: rgb(45, 141, 109);">Image 2</div>
+    </div>
+
+    <div class="slide">
+      <img src="assets/images/img3.jpg" style="width:100%;">
+      <div style="text-align: center;color: rgb(40, 177, 131);">Image 3</div>
+    </div>
+
+  </div>
+
+
+  <!-- Ajax practise -->
+
+  <!-- Request from text document  -->
+
+  <br><br>
+  <h2 style="color: aqua;text-align: center;">AJAX Practise</h2>
+
+  <div>
+    <p id="load">Here we will request the data using text file</p>
+
+    <button id="btn" type="button" onclick="loadData()">Load Me!</button>
+  </div>
+  <hr>
+
+
+  <!-- Request from online json file  -->
+  <div>
+    <p id="load2">Here we will request the data using dummy JSON website</p>
+
+    <button id="btn" type="button" onclick="loadData2()">Load Me!</button>
+  </div>
+  <hr>
+
+
+
+  <div>
+    <p id="load3">Here we will display all header information from the server response.</p>
+
+    <button id="btn" type="button" onclick="loadData3()">Load Me!</button>
+  </div>
+  <hr>
+
+  <div>
+    <ul id="load4_users"> </ul>
+
+    <button id="btn" type="button" onclick="loadData4()">Load Me!</button>
+    <p id="load4" style="color: aquamarine;"><i>Here we will display the names as list </i></p>
+  </div>
+  <hr>
+
+  <div>
+    <ul id="load5_email"> </ul>
+
+    <button id="btn" type="button" onclick="loadData5()">Load Me!</button>
+    <p id="load5" style="color: rgb(89, 46, 206);"><i>Here we will display the emails as list</i></p>
+  </div>
+  <hr>
+
+  <div>
+    <ul id="load6_company"> </ul>
+
+    <button id="btn" type="button" onclick="loadData6()">Load Me!</button>
+    <p id="load6"><i>Here we will display the Company name as list from demo2.json
+        file</i></p>
+  </div>
+  <hr>
+
+  <div>
+    <ul id="load7_combine"> </ul>
+
+    <button id="btn" type="button" onclick="loadData7()">Load Me!</button>
+    <p id="load7"><i>Here we will display the Company name & Current_Price as list from demo2.json
+        file</i></p>
+  </div>
+  <hr>
+
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>

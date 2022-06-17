@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/custom.css">
+
+</head>
+<body>
+
+    <form id="contact" name="contact" onsubmit="return validateFormOnSubmit(this)" action="" method="post">
+        <div>
+            <label>First Name</label>
+            <input placeholder="First Name" type="text" name="fname" id="fname" tabindex="1" autofocus />
+            <div id="fname-error" class="error"></div>
+        </div>
+        
+        <div>
+            <label>Last Name</label>
+            <input placeholder="Last Name" type="text" name="lname" id="lname" tabindex="2" autofocus />
+            <div id="lname-error" class="error"></div>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input placeholder="Email" type="text" name="email" id="email" tabindex="3" autofocus />
+            <div id="email-error" class="error"></div>
+        </div>
+        <div>
+            <label>URL</label>
+            <input placeholder="url" type="text" name="url" id="url" tabindex="4" autofocus />
+            <div id="url-error" class="error"></div>
+        </div>
+        <div>
+            <label>Phone no </label>
+            <input placeholder="Phone" type="tel" name="phone" id="phone" tabindex="5" autofocus />
+            <div id="phone-error" class="error"></div>
+        </div>
+
+
+        <div>
+            <label>Password  </label>
+            <input placeholder="Password" type="text" name="pass" id="pass" tabindex="5" autofocus />
+            <div id="pass-error" class="error"></div>
+        </div>
+
+        <div>
+            <label>Confirm Password  </label>
+            <input placeholder="reenter Password" type="text" name="cpass" id="cpass" tabindex="5" autofocus />
+            <div id="cpass-error" class="error"></div>
+        </div>
+
+
+        <div id="address">
+            Address: <textarea name="address" cols="30" rows="10"  id="address"></textarea><b><span></span></b>
+            <div id="add-error" class="error"></div>
+        </div>
+        
+        <div>
+            <label>Gender</label>
+            <input type="radio" name="pet" id="Male" tabindex="6" autofocus />Male
+            <input type="radio" name="pet" id="Female" tabindex="7" autofocus />female
+            <div id="pet-error" class="error"></div>
+            
+        </div>
+
+        <div id="hobby">
+            Hobby:<span ></span></b>
+            <select name="hobbydrop" id="hobby">
+                <option selected> Select Hobby</option>
+                <option>Football</option>
+                <option>Basktball</option>
+                <option>cricket</option>
+            </select><span></span></b>
+            <div id="hobby-error" class="error"></div>
+        </div>
+
+        <br>
+        
+        <div class="form-input">
+            <label for="file-ip-1">Upload Image</label>
+            <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+            <div class="preview">
+              <img id="file-ip-1-preview">
+            </div>
+        </div>
+        
+        <br> <br>
+       
+
+        <div>
+            <label>Disclaimer</label>
+            <input type="checkbox" name="disclaimer" id="disclaimer" tabindex="8" autofocus />I confirm that all the above information is true.
+            <div id="disclaimer-error" class="error"></div>
+        </div>
+        <div>
+            <button type="submit" name="submit" id="submit" tabindex="9">Send</button>
+        </div>
+
+       
+
+    </form>
+    
+    <script src="assets/custom.js"></script>
+</body>
+</html>
