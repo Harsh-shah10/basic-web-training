@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- Start of css -->
+
+    <style type="text/css">
+
+    label{
+        display: block;
+        /* Everthing in a line */
+    }
+
+    </style>
+
+    <!-- End of css -->
+
+</head>
+<body>
+    <h2>Calculator</h2>
+    <label>Value 1 : </label>
+    <input type="text" id='v1'>
+    <span id="validation1"></span>
+    <label>Value 2 : </label>
+    <input type="text" id='v2'>
+    <span id="validation2"></span>
+
+    <br><br>
+    <label> Select operators </label>
+    <select id="operators">
+        <!-- use onchange="calc()" to automate the stuff without the use of button -->
+        <option disabled="disabled" selected="selected"></option> 
+        <option value="+">Addition</option>
+        <option value="-">Subtraction</option>
+        <option value="*">Multiplication</option>
+        <option value="/">Division</option>
+        <option value="%">Modulo</option>  
+    </select>
+
+    <br><br>
+    <button type="button" onclick="validation()">Calculate</button>
+
+    <label>Answer : </label>
+    <input type="text" id='ans'>
+
+    <!-- Start of Js -->
+
+    <script>
+        function calc()
+        {
+            var fno = parseFloat(document.getElementById('v1').value);
+            var sno = parseFloat(document.getElementById('v2').value);
+
+            // parseInt : for only Int values 
+            // parseFloat : for parsing both int and float
+
+            var opern = document.getElementById('operators').value;
+
+            if(opern == '+')
+            {
+                document.getElementById('ans').value = fno + sno;
+            }
+            if(opern == '-')
+            {
+                document.getElementById('ans').value = fno - sno;
+            }
+            if(opern == '*')
+            {
+                document.getElementById('ans').value = fno * sno;
+            }
+            if(opern == '/')
+            {
+                document.getElementById('ans').value = fno / sno;
+            }
+            if(opern == '%')
+            {
+                document.getElementById('ans').value = fno % sno;
+            }
+        }
+
+        // for checking the input is number or not
+
+        // Start of validation script
+
+        function validation() {
+        var fno = document.getElementById("v1").value;
+        var Sno = document.getElementById("v2").value;
+        if (isNaN(fno)) 
+        {
+        document.getElementById("validation1").innerHTML = "It's not a number ";
+        return false;
+        } 
+        else if (isNaN(Sno)) {
+        document.getElementById("validation2").innerHTML = "It's not a number ";
+        return false;
+        }
+        return calc();
+        }
+
+        // End of validation script
+    
+    </script>
+
+    <!-- End of JS -->
+
+</body>
+</html>
