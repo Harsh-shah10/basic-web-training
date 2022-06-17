@@ -1,0 +1,181 @@
+html,
+body {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+#nav-div {
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 300px;
+}
+
+#nav-div ul {
+    list-style-type: none;
+    display: inline;
+}
+
+#nav-div>h2 {
+    display: inline;
+}
+
+#nav-div li {
+    display: inline;
+    margin: auto 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/free-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: table;
+}
+
+.banner>h1 {
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.heading h1 {
+    color: rgb(96, 189, 101);
+}
+
+.heading h2 {
+    color: rgb(224, 92, 92);
+}
+
+.heading h3 {
+    color: rgb(70, 25, 175);
+}
+
+.heading h4 {
+    color: rgb(200, 96, 226);
+}
+
+.heading h5 {
+    color: rgb(207, 29, 29);
+}
+
+.heading h6 {
+    color: rgb(9, 6, 180);
+}
+
+p>strong {
+    color: rgb(206, 38, 221);
+}
+
+
+
+.quote-div {
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    line-height: 32px;
+    margin: 0 20px;
+    border-left: gray 10px solid;
+}
+
+table {
+    width: 100%;
+}
+
+thead th {
+    text-align: left;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid #dbdad7;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+thead th {
+    background-color: #dd6e1f;
+    color: #fff;
+}
+
+.cell-bgcolor {
+    background-color: #f4f3f1;
+}
+
+.anchor {
+    margin: 10px 0px;
+}
+
+.anchor a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn {
+    margin: 10px 0px;
+}
+
+.button {
+    padding: 8px 20px;
+    background-color: #1f9c23;
+    border: none;
+    color: #fff;
+}
+
+.unordered h2 {
+    color: #fda172;
+}
+
+.ordered h2 {
+    color: #fda172;
+}
+
+
+.form {
+    background-color: #fa8128;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.form-contents>input,
+.form-contents>textarea,
+.form-contents>select {
+    width: 110rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.submit {
+    padding: 10px 0;
+}
+
+.submit button {
+    padding: 6px 16px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}

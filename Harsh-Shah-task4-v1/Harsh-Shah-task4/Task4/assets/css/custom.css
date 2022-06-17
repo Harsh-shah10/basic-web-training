@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.sec1 {
+  background-color: #333647;
+  padding: 10px 0 100px 0;
+}
+
+.sec1 .sec-1 .name{
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+}
+
+.sec1 .sec-1 .skill{
+  font-size: 22px;
+}
+
+
+.heading{
+  background-color: #333647; 
+  border: 0;
+  font-size: 18px;
+  padding-top: 10px;
+  /* color: #FFFFFF; */
+}
+
+.sec2, .sec4, .sec6, .sec8{
+  background-color: #282A39;
+  padding: 100px;
+}
+
+.sec3, .sec5, .sec7{
+  background-color: #333647;
+  padding: 100px;
+}
+
+.squarebox-img  {
+  filter: grayscale(90%);
+  position: relative;
+}
+
+.smallbox{
+  background-color: #11121C;
+  border-radius: 10px;
+  position: absolute;
+  padding: 30px 60px 30px 60px;
+  bottom: -40px;
+  left: -40px;
+}
+
+.cheerfull-girl{
+  border: white 4px dashed;
+}
+
+.box4{
+  background-color: #11121C;
+  border-radius: 10px;
+  border: #707070 dashed 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ 
+.img-row-1 ,.img-row-2 {
+  filter: grayscale(93%);
+}
+
+.sec7-text{
+  background-color: #11121C;
+  padding: 10px 0px 10px 10px;
+  
+}
+
+.contact-align{
+  padding: 0;
+}
+
+.sec1 .box-color-nv1, .sec1 .box-color-nv2{
+  background-color: #F87C58;
+  border-color: #F87C58;
+}
+
+/* .sec5 .button-color , .sec7 .button-color{
+  background-color: #F87C58;
+  border-color: #F87C58;
+} */
